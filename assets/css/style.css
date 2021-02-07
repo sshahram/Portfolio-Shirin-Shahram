@@ -93,5 +93,25 @@ section {
 
 /* HERO STYLE START */
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #000066;
+}
+
+  .hero img {
+      height: 500px;
+      width: 400px;
+  }
+
+  .hero div {
+     background-color: #39a6b2;
+     margin: 0;
+     padding: 0 20px 0 20px;
+     font-size: 36px;
+  }
+  
 /* HERO STYLE END */
 
