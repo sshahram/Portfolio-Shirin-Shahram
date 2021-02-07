@@ -115,3 +115,42 @@ section {
   
 /* HERO STYLE END */
 
+/* SECTION TITLE STYLES START */
+
+.section-title {
+    font-size: 48px;
+    color: #000066;
+    border-right: 3px solid;
+    padding-right: 10px;
+    text-align: left;
+    margin: 0 auto 35px auto;
+    width: 100%;
+}
+/* SECTION TITLE STYLES END */
+
+/* UTILITIES */
+
+.flex-row {
+    display: flex;
+}
+
+.content {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.section-title {
+    padding: 20px 20px 50px 0;
+    text-align: right;
+}
+
+.info {
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
