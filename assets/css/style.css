@@ -16,9 +16,9 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-    padding: 20px 35px;
+    padding: 20px 0;
     color: #39a6b2;
-    background-color: #404040;
+    background-color: #4d4d4d;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -32,12 +32,13 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    color: #39a6b2;
-    text-shadow: 0 0 10px rgba(204, 204, 204, 0.5);
+    padding: 0 10px 0 60px;
+    background-color: #39a6b2;
+    color: #4d4d4d;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 header a {
-    /* text-decoration: none; */
     color: #39a6b2;
 }
 
@@ -56,15 +57,33 @@ header nav ul {
 header nav ul li a {
     padding: 10px 30px;
     font-weight: lighter;
-    font-size: 1.5vw;
-    text-shadow: 0 0 10px rgba(204, 204, 204, 0.5);
+    font-size: 26px;
+    text-shadow: 0 0 10px rgba(153, 153, 153, 0.5);
 }
 
 header nav ul li a:hover {
-    background: #ffffff;
-    color: #4d94ff;
+    background:#e6e6ff;
+    color: #000066;
     border-radius: 15px;
     text-shadow: none;
 }
 
 /* HEADER / NAVBAR STYLES END */
+
+/* FOOTER STYLES START */
+
+footer {
+    background: #4d4d4d;
+    width: 100%;
+    padding: 10px 20px;
+    clear: both;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #39a6b2;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/* END FOOTER STYLES */
+
