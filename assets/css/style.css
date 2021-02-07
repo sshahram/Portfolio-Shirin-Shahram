@@ -57,7 +57,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 30px;
     font-weight: lighter;
-    font-size: 26px;
+    font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(153, 153, 153, 0.5);
 }
 
@@ -76,14 +76,22 @@ footer {
     background: #4d4d4d;
     width: 100%;
     padding: 10px 20px;
-    clear: both;
-    font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     color: #39a6b2;
 }
 
-footer h2 {
-    font-size: 20px;
-}
 /* END FOOTER STYLES */
+
+/* STYLE ALL SECTION TAGS */
+
+section {
+    padding: 60px;
+}
+
+/* HERO STYLE START */
+
+/* HERO STYLE END */
 
