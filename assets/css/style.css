@@ -22,10 +22,10 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 0;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 header h1 {
@@ -120,8 +120,7 @@ section {
 .section-title {
     font-size: 48px;
     color: #000066;
-    border-right: 3px solid;
-    padding-right: 10px;
+    padding: 10px 10px 50px 0;
     text-align: left;
     margin: 0 auto 35px auto;
     width: 100%;
@@ -130,10 +129,11 @@ section {
 
 /* UTILITIES */
 
-.flex-row {
+.flex-col {
     display: flex;
+    flex-direction: column;
 }
-
+/* SECTION CONTENT STYLES START */
 .content {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -141,7 +141,8 @@ section {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     
 }
 
@@ -151,6 +152,49 @@ section {
 }
 
 .info {
-    padding-left: 30px;
-    padding-bottom: 70px;
+    padding: 10px 0 50px 30px;
+    border-left: 3px solid #000066;
+}
+    
+    
+/* SECTION CONTENT STYLES END */
+
+/* SECTION WORK STYLES START */
+
+#work {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-row, .third-row {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.project, .project-main {
+    position: relative;
+}
+
+.project h3, .project-main h3 {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  background-color: #39a6b2;
+  color: #000066;
+  padding: 20px 20px;
+}
+
+.project img {
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+}
+
+.project-main img {
+    width: 1200px;
+    height: 400px;
+    padding: 10px;
 }
