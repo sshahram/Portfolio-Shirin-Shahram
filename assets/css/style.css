@@ -22,10 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: -webkit-sticky;
-    position: sticky; */
     top: 0;
-    /* z-index: 9999; */
 }
 
 header h1 {
@@ -88,7 +85,9 @@ footer {
 /* STYLE ALL SECTION TAGS */
 
 section {
-    padding: 60px;
+    padding: 60px 0;
+    display:flex;
+    justify-content: center;
 }
 
 /* HERO STYLE START */
@@ -118,10 +117,10 @@ section {
 /* SECTION TITLE STYLES START */
 
 .section-title {
-    font-size: 48px;
+    font-size: 40px;
     color: #000066;
-    padding: 10px 10px 50px 0;
-    text-align: left;
+    padding: 20px 10px 20px 0;
+    text-align: right;
     margin: 0 auto 35px auto;
     width: 100%;
 }
@@ -129,30 +128,22 @@ section {
 
 /* UTILITIES */
 
-.flex-col {
+.flex-row {
     display: flex;
-    flex-direction: column;
 }
 /* SECTION CONTENT STYLES START */
 .content {
-    margin: 50px auto;
+    margin: 50px 100px;
     padding-bottom: 50px;
-    width: 80%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start; 
     
-    
-}
-
-.section-title {
-    padding: 20px 20px 50px 0;
-    text-align: right;
 }
 
 .info {
-    padding: 10px 0 50px 30px;
+    padding: 40px 0 50px 30px;
     border-left: 3px solid #000066;
 }
     
@@ -165,7 +156,8 @@ section {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 50px 100px;
 }
 
 .second-row, .third-row {
@@ -198,3 +190,33 @@ section {
     height: 400px;
     padding: 10px;
 }
+
+/* SECTION WORK STYLES START */
+
+/* SECTION CONTACT ME STYLES START */
+
+.contact-info ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+/* SECTION CONTACT ME STYLES END */
+
+/* SECTION RESUME START */
+
+.info iframe {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+/* SECTION RESUME END */
