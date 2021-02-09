@@ -114,51 +114,46 @@ section {
   
 /* HERO STYLE END */
 
-/* SECTION TITLE STYLES START */
-
-.section-title {
-    font-size: 40px;
-    color: #000066;
-    padding: 20px 10px 20px 0;
-    text-align: right;
-    margin: 0 auto 35px auto;
-    width: 100%;
-}
-/* SECTION TITLE STYLES END */
-
 /* UTILITIES */
 
 .flex-row {
     display: flex;
+    flex-direction: column;
 }
 /* SECTION CONTENT STYLES START */
 .content {
     margin: 50px 100px;
     padding-bottom: 50px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: space-between; 
+    width: 80%;
     
+}
+.section-title {
+    font-size: 40px;
+    color: #000066;
+    padding: 20px 10px 20px 0;
+    text-align: right;
+    margin: 0 auto 35px auto;
+    flex: 1 30%;
 }
 
 .info {
     padding: 40px 0 50px 30px;
     border-left: 3px solid #000066;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 20px;
 }
     
     
 /* SECTION CONTENT STYLES END */
 
 /* SECTION WORK STYLES START */
-
-#work {
-    display: flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 50px 100px;
-}
 
 .second-row, .third-row {
     display: flex;
@@ -173,25 +168,27 @@ section {
 .project h3, .project-main h3 {
   position: absolute;
   bottom: 30px;
-  left: 10px;
+  left: 0;
   background-color: #39a6b2;
   color: #000066;
   padding: 20px 20px;
 }
 
 .project img {
-    width: 600px;
+    width: 400px;
     height: 200px;
-    padding: 10px;
+    border: 2px solid #000066;
+    margin-right: 10px;
 }
 
 .project-main img {
-    width: 1200px;
+    width: 810px;
     height: 400px;
-    padding: 10px;
+    border: 2px solid #000066;
+    
 }
 
-/* SECTION WORK STYLES START */
+/* SECTION WORK STYLES END */
 
 /* SECTION CONTACT ME STYLES START */
 
@@ -214,8 +211,8 @@ section {
 /* SECTION RESUME START */
 
 .info iframe {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     padding: 10px;
 }
 
