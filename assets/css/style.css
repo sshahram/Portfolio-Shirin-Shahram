@@ -134,7 +134,8 @@ footer h2 {
     font-size: 36px;
     width: 20%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: right;
     align-content: center;
     padding-right: 40px;
     border-right: solid 5px;
@@ -156,6 +157,10 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.work h2 {
+    justify-content: center;
 }
 .section-title {
     font-size: 38px;
@@ -180,12 +185,17 @@ footer h2 {
 /* Grid Styles */
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     margin-left: 15px;
     width: 100%;
     grid-auto-flow: dense;
+}
+
+.project-1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 .project-1 a {
     height: 410px;
@@ -198,7 +208,10 @@ footer h2 {
     justify-content: flex-end;
     opacity: 0.5;
     border: solid 2px var(--primary-color);
+    text-decoration: none;
+    color: var(--tertiary-color);
  }
+
 .project-2 a {
     height: 200px;
     background-image: url(../images/horiseon.jpg);
@@ -246,10 +259,11 @@ footer h2 {
     text-decoration: none;
     color: var(--tertiary-color);
 }
-.grid h3, .grid p{
+.grid h3, .grid p, .project-1 h3, .project-1 p{
     background-color: var(--primary-color);
     width: 100%;
 }
+
 
 /* Contact Me Styles */
 .contact-me {
@@ -262,7 +276,8 @@ footer h2 {
     font-size: 36px;
     width: 20%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: right;
     padding-right: 15px;
     border-right: solid 5px;
     text-shadow: 0 0 5px var(--primary-color);
