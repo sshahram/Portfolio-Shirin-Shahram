@@ -170,7 +170,7 @@ footer h2 {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 30px;
     margin-left: 20px;
     width: 100%;
@@ -180,6 +180,7 @@ footer h2 {
 .project-1 {
     margin-bottom: 30px;
     margin-left: 20px;
+    width: 100%;
 }
 
 .link {
@@ -263,59 +264,55 @@ footer h2 {
         justify-content: center;
         position: relative;
     }
+
     header h1 {
         width: 100%;
         text-align: center;
     }
+
     header nav ul {
         width: 100%;
         justify-content: center;
     }
+
     header nav ul li a {
         font-size: 18px;
     }
-    /* .contact-me h2 {
-        font-size: 38px;
-    } */
-    .project-1 a, .project-2 a, .project-3 a, .project-4 a, .project-5 a {
+
+    .link {
         opacity: 1;
     }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-    .hero h2 {
+    .cool-subtitle {
         font-size: 20px;
     }
-    .hero img {
+
+    .hero-img {
         width: 120px;
     }
-    .about-me h2 {
-        font-size: 32px;
-        flex: 1 100%;
-        border-bottom: solid 3px;
-        border-right: none;
-        text-align: center;
-        justify-content: center;
-    }   
-    .about-me {
+
+     .about-me {
         font-size: 15px;
         justify-content: center;
     }
+
     .section-title {
         flex: 1 100%;
         border-bottom: solid 3px;
         border-right: none;
-        justify-content: center;
         text-align: center;
     }
+
     .content {
         width: 100%;  
     }
-    .grid {
-        margin: 0;
+
+    .grid, .project-1  {
+        margin: 20px 0;
         justify-content: center;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
     }
 
     .contact-me {
@@ -324,38 +321,34 @@ footer h2 {
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .hero h2 {
+    .cool-subtitle{
         font-size: 20px;
     }
-    .hero img {
+
+    .hero-img {
         width: 120px;
     }
-    .about-me h2 {
-        font-size: 32px;
-        flex: 1 100%;
-        border-bottom: solid 3px;
-        border-right: none;
-        text-align: center;
-        justify-content: center;
-    }   
+
     .about-me {
         font-size: 15px;
         justify-content: center;
     }
+
     .section-title {
         flex: 1 100%;
         border-bottom: solid 3px;
         border-right: none;
         text-align: center;
-        justify-content: center;
     }
+
     .content {
         width: 100%;  
     }
-    .grid {
-        margin: 0;
+
+    .grid, .project-1 {
+        margin: 20px 0;
         justify-content: center;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
     }
+
 }
