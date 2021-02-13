@@ -29,6 +29,12 @@ As an employer, I WANT to view a potential employee's deployed portfolio of work
 * WHEN I click on the images of the applications, then I am taken to that deployed application
 * When I resize the page or view the site on various screens and devices, then I am presented with a responsive layout that adapts to my viewport
 
+## Link to Deployed Application
+https://sshahram.github.io/Portfolio-Shirin-Shahram/
+
+## Link to Github Repository
+https://github.com/sshahram/Portfolio-Shirin-Shahram
+
 ## Screenshot
 Here is the snapshots of the website:
 
