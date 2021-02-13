@@ -351,4 +351,9 @@ footer h2 {
         grid-template-columns: 1fr 1fr;
     }
 
+    .contact-info {
+        margin-left: 0;
+        padding: 0;
+    }
+
 }
