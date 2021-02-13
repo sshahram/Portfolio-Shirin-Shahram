@@ -322,6 +322,10 @@ footer h2 {
     .contact-me {
         flex-wrap: wrap;
     }
+
+    .contact-info a {
+        padding-right: 0;
+    }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
