@@ -351,9 +351,34 @@ footer h2 {
         grid-template-columns: 1fr 1fr;
     }
 
-    .contact-info {
-        margin-left: 0;
-        padding: 0;
-    }
+}
 
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 400px */
+@media screen and (max-width: 400px) {
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #email {
+        margin-left: 0;
+        padding-left: 3px;
+        padding-right: 3px;
+        overflow-wrap: break-word;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 400px */
+@media screen and (max-width: 300px) {
+    .contact-info {
+        display: flex;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #email {
+        margin-left: 0;
+        overflow-wrap: break-word;
+    }
 }
