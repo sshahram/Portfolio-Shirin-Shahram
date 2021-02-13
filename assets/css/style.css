@@ -18,8 +18,8 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-    color: #39a6b2;
-    background-color: #4d4d4d;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -31,13 +31,13 @@ header h1 {
     font-size: 30px;
     padding-left: 20px;
     margin: 10px 0 10px;
-    background-color: #39a6b2;
-    color: #4d4d4d;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 header a {
-    color: #39a6b2;
+    color: var(--tertiary-color);
     text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background:#e6e6ff;
-    color: #000066;
+    color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -74,14 +74,14 @@ header nav ul li a:hover {
 /* FOOTER STYLES START */
 
 footer {
-    background: #4d4d4d;
+    background: var(--secondary-color);
     width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    color: #39a6b2;
+    color: var(--tertiary-color);
 }
 
 footer h2 {
@@ -99,7 +99,7 @@ footer h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-end;
-    background-color: #000066;
+    background-color: var(--primary-color);
 }
 
   .hero img {
@@ -110,7 +110,7 @@ footer h2 {
 
   .cool-subtitle {
     text-align: right;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 30px;
