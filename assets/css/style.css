@@ -279,6 +279,10 @@ footer h2 {
         font-size: 18px;
     }
 
+    .hero {
+        justify-content: space-around;
+    }
+
     .link {
         opacity: 1;
     }
