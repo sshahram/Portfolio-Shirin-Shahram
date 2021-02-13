@@ -355,6 +355,13 @@ footer h2 {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 400px */
 @media screen and (max-width: 400px) {
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
     .contact-info {
         display: flex;
         justify-content: center;
@@ -369,7 +376,7 @@ footer h2 {
     }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 400px */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 300px */
 @media screen and (max-width: 300px) {
     .contact-info {
         display: flex;
