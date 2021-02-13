@@ -359,6 +359,10 @@ footer h2 {
         grid-template-columns: 1fr 1fr;
     }
 
+    .contact-info a {
+        padding-right: 0;
+    }
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 400px */
