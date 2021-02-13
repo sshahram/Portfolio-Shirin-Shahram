@@ -123,33 +123,19 @@ footer h2 {
 .about-me {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     align-content: center;
     justify-content: flex-start;
     width: 100%;
     margin: 20px 0;
 }
 
-.about-me h2 {
-    font-size: 36px;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    text-align: right;
-    align-content: center;
-    padding-right: 40px;
-    border-right: solid 5px;
-    text-shadow: 0 0 5px var(--primary-color);
-}
-
 .about-me p {
     width: 70%;
-    margin-left: 15px;
+    margin-left: 30px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 /* Work Styles */
@@ -169,17 +155,15 @@ footer h2 {
     flex: initial;
     justify-content: center;
     padding-right: 15px;
-    border-right: solid 5px;
+    border-right: solid 5px var(--primary-color);
+    text-align: right;
     margin: 20px 0;
-    text-decoration: none;
-    text-shadow: 0 0 5px var(--primary-color);
+    color: var(--primary-color);
 }
-.section-title h2 {
-    justify-content: flex-start;
-}
+
 .content {
-    width: 78%;
-    margin: 20px 0;
+    width: 70%;
+    margin: 30px 0;
 }
 
 /* Grid Styles */
@@ -187,80 +171,62 @@ footer h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin-left: 15px;
+    grid-gap: 30px;
+    margin-left: 20px;
     width: 100%;
     grid-auto-flow: dense;
 }
 
 .project-1 {
-    margin-bottom: 10px;
-    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
+
+.link {
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0.5;
+    border: solid 2px var(--primary-color);
+
+}
+
+.link:hover {
+    opacity: 1;
+ }
+
 .project-1 a {
     height: 410px;
     background-image: url(../images/run-buddy.jpg);
-    background-size: 100% 100%;
     grid-column:  span 2;
     grid-row: span 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    opacity: 0.5;
-    border: solid 2px var(--primary-color);
-    text-decoration: none;
-    color: var(--tertiary-color);
  }
 
-.project-2 a {
+ .grid a {
     height: 200px;
-    background-image: url(../images/horiseon.jpg);
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    opacity: 0.5;
-    border: solid 2px var(--primary-color);
-}
-.project-3 a {
-    height: 200px;
-    background-image: url(../images/coming-soon.jpg);
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    opacity: 0.5;
-    border: solid 2px var(--primary-color);
-}
-.project-4 a {
-    height: 200px;
-    background-image: url(../images/upcoming.jpg);
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    opacity: 0.5;
-    border: solid 2px var(--primary-color);
-}
-.project-5 a {
-    height: 200px;
-    background-image: url(../images/future-proj.jpg);
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    opacity: 0.5;
-    border: solid 2px var(--primary-color);
-}
-.project-1 a:hover, .project-2 a:hover, .project-3 a:hover, .project-4 a:hover, .project-5 a:hover {
-    opacity: 1;
  }
-.grid a {
-    text-decoration: none;
-    color: var(--tertiary-color);
+
+.project-2 a {  
+    background-image: url(../images/horiseon.jpg);
 }
-.grid h3, .grid p, .project-1 h3, .project-1 p{
-    background-color: var(--primary-color);
+
+.project-3 a {
+    background-image: url(../images/coming-soon.jpg);
+}
+
+.project-4 a {
+    background-image: url(../images/upcoming.jpg);
+}
+
+.project-5 a {
+    background-image: url(../images/future-proj.jpg);
+}
+
+
+.content h3, .content p {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
     width: 100%;
 }
 
@@ -268,37 +234,25 @@ footer h2 {
 /* Contact Me Styles */
 .contact-me {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 100%;
     margin: 20px 0;
 }
-.contact-me h2 {
-    font-size: 36px;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    text-align: right;
-    padding-right: 15px;
-    border-right: solid 5px;
-    text-shadow: 0 0 5px var(--primary-color);
-}
+
 .contact-info a {
     text-decoration: underline;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-size: 25px;
     display: inline-block;
-    margin-left: 50px;
-    padding: 28px 65px;
+    margin-left: 20px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
 }
 
-.contact-info ul{
-    list-style: none;
-}
 .contact-info a:hover {
-    color: var(--secondary-color);
-    transition: color .5s;
+    color: var(--primary-color);
 }
 
 /* MEDIA QUERIES BEGIN */
@@ -320,9 +274,9 @@ footer h2 {
     header nav ul li a {
         font-size: 18px;
     }
-    .contact-me h2 {
+    /* .contact-me h2 {
         font-size: 38px;
-    }
+    } */
     .project-1 a, .project-2 a, .project-3 a, .project-4 a, .project-5 a {
         opacity: 1;
     }
@@ -351,7 +305,8 @@ footer h2 {
         flex: 1 100%;
         border-bottom: solid 3px;
         border-right: none;
-        justify-content: flex-start;
+        justify-content: center;
+        text-align: center;
     }
     .content {
         width: 100%;  
@@ -361,6 +316,10 @@ footer h2 {
         justify-content: center;
         grid-template-columns: 1fr 1fr;
         width: 100%;
+    }
+
+    .contact-me {
+        flex-wrap: wrap;
     }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
