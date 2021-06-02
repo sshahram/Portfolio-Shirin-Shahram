@@ -57,7 +57,7 @@ header nav ul {
 header nav ul li a {
     padding: 5px 10px;
     font-weight: lighter;
-    font-size: 1.20vw;
+    font-size: 1.50vw;
     text-align: center;
     text-shadow: 0 0 10px rgba(153, 153, 153, 0.5);
 }
@@ -78,7 +78,7 @@ footer {
     width: 100%;
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: var(--tertiary-color);
